@@ -1,0 +1,122 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+/*Start CSS - Property Title*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+  font-size:1em;
+  box-sizing:border-box;
+}
+
+.wrapper {
+  width:94%;
+  margin:auto;
+}
+
+.box {
+  max-width:320px;
+  min-height:320px;
+  margin:60px auto;
+  border:1px solid #ccc;
+  padding:10px;
+  box-shadow:0 1px 1px 1px #ccc;
+}
+
+  h2 {
+    text-align:center;
+    background-color:lightblue;
+    color:black;
+    padding:20px;
+    margin:0;
+    border:2px solid black;
+  }
+
+    small {
+      text-transform:uppercase;
+      font-size:12px;
+      letter-spacing:2px;
+    }
+  
+  .align-center {
+    text-align:center;
+  }
+
+
+.float-left {
+  float:left;
+}
+
+.float-right {
+  float:right;
+}
+
+.clear-both {
+  clear:both;
+  padding-bottom:10px;
+}
+
+/*End CSS - Property Title*/
+
+
+/*Start CSS - Company Cards*/
+
+.box-company {
+  max-width:320px;
+  min-height:320px;
+  margin:60px auto;
+  border:1px solid #ccc;
+  padding:10px;
+  box-shadow:0 1px 1px 1px #ccc;
+}
+
+.box-company .company {
+  text-align:center;
+  color:black;
+  padding:20px;
+  margin:0;
+  border:2px solid black;
+}
+
+
+.box-company .fa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/*End CSS - Company Cards*/
+
+/*Start CSS - Community Card*/
+
+.box-community {
+  max-width:320px;
+  min-height:320px;
+  background-color: #f0df2b;
+  margin:60px auto;
+  border:1px solid #ccc;
+  padding:10px;
+  box-shadow:0 1px 1px 1px #ccc;
+}
+
+.box-community .community {
+  text-align:center;
+  color:black;
+  padding:20px;
+  margin:0;
+  border:2px solid black;
+}
+
+.box-community .fa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/*End CSS - Community Card*/
+
+
+
